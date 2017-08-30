@@ -1,0 +1,303 @@
+/*MACA*/
+body{
+	background-color: #F5F5F5;
+}
+nav{
+		.navbar-brand>img {
+	    width: 35px;
+	    margin: -2px 0 0 22%;
+	    position: absolute;
+		}
+
+		.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		    border-color: #e7e7e7;
+		    width: 100%;
+		}
+
+		.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+		    color: #337ab7;
+		    background-color: #e7e7e7;
+		}
+
+		.navbar-toggle {
+			float: left !important;
+			margin-left: 10px;
+		}
+
+		.navbar-collapse.in {
+		    overflow-x: auto;
+		}
+	}
+	.fa-shopping-cart{
+		position: relative;
+		left: 238px;
+		bottom: 2px;
+		color: black;
+		font-size: 22px;
+	}
+	/* Modal */
+	.center {
+    margin-top:50px;   
+	}
+
+	.modal-header {
+		padding-bottom: 5px;
+	}
+
+	.modal-footer {
+	    padding: 0;
+	}
+	    
+	.modal-footer .btn-group button {
+		height:40px;
+		border-top-left-radius : 0;
+		border-top-right-radius : 0;
+		border: none;
+		border-right: 1px solid #ddd;
+	}
+		
+	.modal-footer .btn-group:last-child > button {
+		border-right: 0;
+	}
+	.modal-content{
+		top: 219px;
+		.modal-body{
+			height: 220px;
+			text-align: center;
+			img{
+				width: 16%;
+				margin: 20px 0;
+			}
+			form{
+				div{
+					text-align: center;
+					font-size: 13px;
+			}
+		}
+	}
+}
+/*SECTION COMPARADOR*/
+.comparador-section{
+	div{
+		div{
+			div{
+				img{
+					width: 100%;
+					margin: 5px 0 0 0;
+					max-height: 180px !important;
+					margin-bottom:13px;
+				}
+			}
+		}
+	}
+}
+
+.frase-modal{
+	margin-top: 20px 0;
+	color: black;
+}
+.form-control-uno{
+	margin-top: -15px;
+	margin-left: 6px
+}
+.form-control-dos{
+	margin-top: -15px;
+	margin-right: 5px;
+}
+.check-modal{
+	text-align: center;
+	label{
+		font-weight: 300;
+	}
+}
+input[type=checkbox], input[type=radio]{
+	margin: 4px 5px 0;
+    position: relative;
+    top: 2px;
+    line-height: normal;
+}
+.navbar-default{
+	background-color: white !important;
+}
+.navbar-default .navbar-toggle{
+	border-color: white;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: black;
+}
+.seleccionTop{
+	a{
+		text-decoration: none;
+		color: #ADADAD;
+	}
+
+	a:hover, a:active, a:focus{
+		text-decoration: none;
+	}
+
+	a:active, a:focus{
+		color: red;
+	}
+
+
+	div{
+		div{
+			img{
+				width: 100%;
+    			margin: 13px 0;
+    			max-height: 180px;
+			}
+		}
+	}
+
+	.checkbox {
+	    position: relative;
+	    display: inline-block !important;
+	    margin-top: 5px;
+	    margin-bottom: 10px;
+	    background-color: white;
+	    width: 42%;
+	}
+	.fa-heart{
+		position: relative;
+	    top: 4px;
+	    left: 78%;
+	    margin-bottom: 5px;
+	}
+
+	h6{
+		color: #ADADAD;
+		margin: 0 0 4px;
+	}
+	h5{
+		margin: 0px;
+		color: black;
+		font-weight: bold;
+	}
+	h4{
+		margin: 6px 0;
+		color: #0055A0;
+	}
+}
+.btn-comparar{
+	text-align: center;
+	display: none;
+}
+.btn-overlay{
+	position: relative;
+	top: 7px;
+}
+#btn-container{
+	text-align: center;
+}
+.checkbox label{
+	font-size: 10px;
+	color: #DD0021;
+}
+.check-uno{
+	margin: 10px 2px 0 22px;
+}
+.check2, .check4, .check6, .check8{
+	margin: 10px 15px;
+}
+.tienda2{
+	max-height: 128px;
+}
+.titulo2{
+	margin-top: 11px !important;
+}
+.btn-fijo{
+    position: fixed;
+    left: 5px;
+    right: 5px;
+    bottom: 0;
+    z-index: 1000;
+    width: 97%;
+}
+.anuncio-comparacion{
+	background-color: #DD0021;
+	width: 89%;
+	text-align: center;
+	color: white;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+.font-compara{
+	font-weight: 100;
+}
+
+/*maca fin*/
+.compara-caja{
+	background-color:#fff;
+	width: 46% !important;
+	margin: 2%;
+	
+}
+.comparador-img{
+	padding: 15px 7px;
+	background-color: #fff;
+}
+.compaCaja{
+		margin: 10px 2px 0 0;
+		//background-color: white;
+		//border-right: 1px solid gray;
+		h5{
+			margin: 0px;
+			color: black;
+			
+		}
+	}
+h5{
+	font-weight: bold !important;	
+}
+
+.agregarC{
+	margin-top: 10px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.linea-titulo{
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border-bottom: 1px solid #ADADAD;
+}	
+.comparador-section{
+	
+	#down{
+		margin-bottom: 2%;
+	}
+		
+	p#rigth{
+		display: inline-flex;
+		padding-left: 2%;
+		font-size: 90%;
+	}
+	button {
+	    background-color: #dd0021;
+	    color: #fff;
+	    width: 100% !important;
+	    height: 44px !important;
+	    border: none;
+	}
+
+	#margendonw{
+		margin-bottom: 16%;
+		border-bottom: 1px solid gray;
+	}
+}
+footer img{
+	width: 35% !important;
+	height: auto;
+}
+#ap{
+	margin-bottom: 3%;
+}
+.price-color{
+	color:#0072CE;
+}
+.buscador-producto{
+	a{
+		color: #ADADAD;
+		text-decoration: none;
+	}
+}
